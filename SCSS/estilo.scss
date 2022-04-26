@@ -4,15 +4,19 @@
 
 $color-marca: linear-gradient(darkgoldenrod,rgb(225, 207, 8));
 
+@mixin Logo {
+  width: 70%;
+  max-width: 180px;
+  height: auto;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 100px;
+  border-style: double;
+  
+}
 
 .LogoBorde {
-    width: 70%;
-    max-width: 180px;
-    height: auto;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 100px;
-    border-style: double;
+  @include Logo;
 }
 
 
@@ -150,10 +154,11 @@ $color-marca: linear-gradient(darkgoldenrod,rgb(225, 207, 8));
 .imgprod h3,
 .imgprod p {
   margin: 0 0 10px;
+  
 }
 .imgprod h3 {
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: $h3;
   line-height: 1.2em;
   font-family: 'Oswald', Arial, sans-serif;
   text-transform: uppercase;
