@@ -30,16 +30,18 @@
   justify-items: center;
   border-radius: 5px; }
 
-.cuadro {
-  width: 50%;
-  height: 90%;
-  align-content: flex-end;
-  background-color: beige;
-  background-position: center; }
-
 /*productos*/
 .grid {
-  grid: display grid, grid-template-columns repeat(12, 1fr), width 100%, min-height 400px, height 100%, max-height 1200px, margin auto, gap 10px, overflow hidden, align-items center; }
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  min-height: 400px;
+  height: 100%;
+  max-height: 1200px;
+  margin: auto;
+  gap: 10px;
+  overflow: hidden;
+  align-items: center; }
 
 .portada {
   width: 100%;
