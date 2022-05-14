@@ -1,10 +1,14 @@
-$grilla-grid-conteiner:    display grid,
-grid-template-columns repeat(12, 1fr),
-width 100%,
-min-height 400px,
-height 100%,
-max-height 1200px,
-margin auto,
-gap 10px,
-overflow hidden,
-align-items center;
+
+div.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    max-height: 1200px;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+
+}

@@ -1,0 +1,10 @@
+@mixin LogoBorde ($width,$mw,$balto,$bancho,$bcolor,$bradius,$bestilo){
+    width:$width;
+    max-width: $mw;
+    height:$balto;
+    border-width: $bancho;
+    border-color:$bcolor;
+    border-radius: $bradius;
+    border-style: $bestilo;
+    
+  }
