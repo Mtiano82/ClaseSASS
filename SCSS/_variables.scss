@@ -1,2 +1,21 @@
 $color-marca: linear-gradient(darkgoldenrod,rgb(225, 207, 8));
 $color-fondo: dimgrey;
+
+
+
+$fuente-normal:"Times New Roman", Times, serif;
+$fuente-titulo: "Lucida Console", "Courier New", monospace;
+$fuente-altura: 10px;    
+
+$color-titulo: red;
+$color-normal: black;
+
+$color:(
+    "titulo":red,
+    "normal":black,
+
+);
+
+
+$texto-formato: 5px;
+$fondo: darkgoldenrod

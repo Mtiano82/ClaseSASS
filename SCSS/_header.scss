@@ -1,0 +1,38 @@
+.logo-rec {
+        width:100%;
+        height:100%;
+        grid-column: 1/5;
+        display:grid;
+        grid-area: span;
+        justify-content: flex-end;
+        align-items: center;
+
+}
+
+.menu-rec{
+    width: 100%;
+    height: 100%;
+    grid-column: 5/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+.rec-individual {
+    min-height: auto;
+    max-height: 100%;
+    min-width: auto;
+    max-width: 100%;
+    grid-column: 7/13;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: min($numbers: 5px);
+    font-size: max($numbers: 50px);
+    text-shadow: 10px 10px 20px darkgray;
+    text-decoration-line: overline;
+    
+       
+    }

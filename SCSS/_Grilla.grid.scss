@@ -12,3 +12,16 @@ div.grid {
     align-items: center;
 
 }
+
+.grid-rec {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    max-height: 1200px;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    background:linear-gradient(darkgoldenrod,rgb(225, 207, 8));
+}

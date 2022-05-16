@@ -8,3 +8,9 @@
     border-style: $bestilo;
     
   }
+
+  @mixin footer-rec ($elemento1,$elemento2,$elemento3,$elemento4) {
+    text-align: $elemento1;
+    padding: $elemento2;
+    background-color: $elemento3;
+    color:$elemento4;}

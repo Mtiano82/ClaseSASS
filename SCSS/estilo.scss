@@ -4,6 +4,11 @@
 @import "mixin";
 @import "variables";
 @import "productos";  
+@import "header";
+@import "main";
+
+
+   
 
 
 
@@ -31,3 +36,5 @@
 }
 
 
+
+.footer-rec { @include footer-rec(center,3px ,black ,white )}
